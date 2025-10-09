@@ -30,6 +30,8 @@ static struct cn_dev cdev;
 
 static int cn_already_initialized;
 
+pr_info("This is karthi modification\n");
+
 /*
  * Sends mult (multiple) cn_msg at a time.
  *
